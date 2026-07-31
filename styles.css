@@ -260,7 +260,7 @@ h3 {
   -moz-appearance: none;
   appearance: none;
   height: 5px;
-  background: #0000;
+  background: #000000;
   opacity: 0.7;
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
