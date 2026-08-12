@@ -7,8 +7,8 @@
   "theme_color": "#962729",
   "icons": [
     {
-      "src": "assets/icon.png",
-      "sizes": "192x192",
+      "src": "assets/icon/saputify-icon.png",
+      "sizes": "48x48",
       "type": "image/png"
     }
   ]

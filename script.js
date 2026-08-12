@@ -26,47 +26,47 @@ let track_list = [
   {
     name: "Menerima Luka",
     artist: "Natasya Sabella",
-    path: "assets/NATASYA SABELLA - MENERIMA LUKA (OFFICIAL LYRICS VIDEO).mp3",
+    path: "assets/music/NATASYA SABELLA - MENERIMA LUKA (OFFICIAL LYRICS VIDEO).mp3",
   },
   {
     name: "On The Floor ft. Pitbull 4",
     artist: "Jennifer Lopez",
-    path: "assets/Jennifer Lopez - On The Floor ft. Pitbull 4.mp3",
+    path: "assets/music/Jennifer Lopez - On The Floor ft. Pitbull 4.mp3",
   },
   {
     name: "Dream",
     artist: "LISA",
-    path: "assets/LISA - Dream (Lyric Video) 4.mp3",
+    path: "assets/music/LISA - Dream (Lyric Video) 4.mp3",
   },
   {
     name: "Menerima Luka",
     artist: "Natasya Sabella",
-    path: "assets/NATASYA SABELLA - MENERIMA LUKA (OFFICIAL LYRICS VIDEO).mp3",
+    path: "assets/music/NATASYA SABELLA - MENERIMA LUKA (OFFICIAL LYRICS VIDEO).mp3",
   },
   {
     name: "On The Floor ft. Pitbull 4",
     artist: "Jennifer Lopez",
-    path: "assets/Jennifer Lopez - On The Floor ft. Pitbull 4.mp3",
+    path: "assets/music/Jennifer Lopez - On The Floor ft. Pitbull 4.mp3",
   },
   {
     name: "Shipping Lanes",
     artist: "Chad Crouch",
-    path: "assets/Shipping_Lanes.mp3",
+    path: "assets/music/Shipping_Lanes.mp3",
   },
   {
     name: "Menerima Luka",
     artist: "Natasya Sabella",
-    path: "assets/NATASYA SABELLA - MENERIMA LUKA (OFFICIAL LYRICS VIDEO).mp3",
+    path: "assets/music/NATASYA SABELLA - MENERIMA LUKA (OFFICIAL LYRICS VIDEO).mp3",
   },
   {
     name: "On The Floor ft. Pitbull 4",
     artist: "Jennifer Lopez",
-    path: "assets/Jennifer Lopez - On The Floor ft. Pitbull 4.mp3",
+    path: "assets/music/Jennifer Lopez - On The Floor ft. Pitbull 4.mp3",
   },
   {
     name: "Shipping Lanes",
     artist: "Chad Crouch",
-    path: "assets/Shipping_Lanes.mp3",
+    path: "assets/music/Shipping_Lanes.mp3",
   },
   {
     name: "Menerima Luka",
