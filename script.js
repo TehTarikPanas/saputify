@@ -39,29 +39,14 @@ let track_list = [
     path: "assets/music/LISA - Dream (Lyric Video) 4.mp3",
   },
   {
-    name: "Menerima Luka",
-    artist: "Natasya Sabella",
-    path: "assets/music/NATASYA SABELLA - MENERIMA LUKA (OFFICIAL LYRICS VIDEO).mp3",
+    name: "Love Me",
+    artist: "RealestK",
+    path: "assets/music/RealestK - Love Me (Official Audio) 4.mp3",
   },
   {
-    name: "On The Floor ft. Pitbull 4",
-    artist: "Jennifer Lopez",
-    path: "assets/music/Jennifer Lopez - On The Floor ft. Pitbull 4.mp3",
-  },
-  {
-    name: "Shipping Lanes",
-    artist: "Chad Crouch",
-    path: "assets/music/Shipping_Lanes.mp3",
-  },
-  {
-    name: "Menerima Luka",
-    artist: "Natasya Sabella",
-    path: "assets/music/NATASYA SABELLA - MENERIMA LUKA (OFFICIAL LYRICS VIDEO).mp3",
-  },
-  {
-    name: "On The Floor ft. Pitbull 4",
-    artist: "Jennifer Lopez",
-    path: "assets/music/Jennifer Lopez - On The Floor ft. Pitbull 4.mp3",
+    name: "Heaven And Back",
+    artist: "Chase Atlantic",
+    path: "assets/music/Chase Atlantic - HEAVEN AND BACK 4.mp3",
   },
   {
     name: "Shipping Lanes",
@@ -69,19 +54,49 @@ let track_list = [
     path: "assets/music/Shipping_Lanes.mp3",
   },
   {
-    name: "Menerima Luka",
-    artist: "Natasya Sabella",
-    path: "assets/NATASYA SABELLA - MENERIMA LUKA (OFFICIAL LYRICS VIDEO).mp3",
+    name: "DDD",
+    artist: "EXID",
+    path: "assets/music/[EXID(이엑스아이디)] 덜덜덜(DDD) 뮤직 비디오 (Official Music Video) 4.mp3",
   },
   {
-    name: "On The Floor ft. Pitbull 4",
-    artist: "Jennifer Lopez",
-    path: "assets/Jennifer Lopez - On The Floor ft. Pitbull 4.mp3",
+    name: "Cause I'm God Girl",
+    artist: "HyunA",
+    path: "assets/music/[MV] HyunA(현아) _ Cause I'm God Girl(잘나가서 그래) (Feat. 정일훈 Of BTOB).mp3",
   },
   {
-    name: "Shipping Lanes",
-    artist: "Chad Crouch",
-    path: "assets/Shipping_Lanes.mp3",
+    name: "Lip & Hip",
+    artist: "HyunA",
+    path: "assets/music/[MV] HyunA(현아) _ Lip & Hip 4.mp3",
+  },
+  {
+    name: "Crazy",
+    artist: "4MINUTE",
+    path: "assets/music/4MINUTE - 미쳐(Crazy) 4.mp3",
+  },
+  {
+    name: "Lovesick Girls",
+    artist: "BLACKPINK",
+    path: "assets/music/BLACKPINK - 'Lovesick Girls' M_V 4.mp3",
+  },
+  {
+    name: "Oh!GG",
+    artist: "Girls' Generation",
+    path: "assets/music/Girls' Generation-Oh!GG 소녀시대-Oh!GG '몰랐니 (Lil' Touch)' MV.mp3",
+  },
+  {
+    name: "Nunu Nana",
+    artist: "Jessi",
+    path: "assets/music/Jessi (제시) - '눈누난나 (NUNU NANA)' MV 4.mp3",
+  },
+  {
+    name: "Play (Feat. 창모 (Changmo))",
+    artist: "CHUNG HA",
+    path: "assets/music/청하 (CHUNG HA) - 'PLAY (Feat. 창모 (CHANGMO))' M_V.mp3",
+  },
+  {
+    name: "Flower Shower",
+    artist: "HyunA",
+    path: "assets/music/현아 _ FLOWER SHOWER _ 가사 _ HyunA _ FLOWER SHOWER _ 스페셜클립 _ Special Clip _ LYRICS.mp3",
   },
 ];
 
