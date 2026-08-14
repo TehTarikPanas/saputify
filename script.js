@@ -247,23 +247,53 @@ function renderPlaylist() {
 }
 
 // Search function
+// document.getElementById("searchBar").addEventListener("input", function (e) {
+//   const query = e.target.value.toLowerCase();
+//   const playlist = document.getElementById("playlist");
+//   playlist.innerHTML = "";
+//   track_list
+//     .filter(
+//       (track) =>
+//         track.name.toLowerCase().includes(query) ||
+//         track.artist.toLowerCase().includes(query),
+//     )
+//     .forEach((track, index) => {
+//       let li = document.createElement("li");
+//       li.textContent = `${track.name} - ${track.artist}`;
+//       li.onclick = () => loadTrack(index);
+//       playlist.appendChild(li);
+//     });
+// });
+
 document.getElementById("searchBar").addEventListener("input", function (e) {
   const query = e.target.value.toLowerCase();
   const playlist = document.getElementById("playlist");
   playlist.innerHTML = "";
+
   track_list
     .filter(
       (track) =>
         track.name.toLowerCase().includes(query) ||
-        track.artist.toLowerCase().includes(query),
+        track.artist.toLowerCase().includes(query)
     )
-    .forEach((track, index) => {
+    .forEach((track) => {
       let li = document.createElement("li");
       li.textContent = `${track.name} - ${track.artist}`;
-      li.onclick = () => loadTrack(index);
+
+      // Store the original index of the track in a data attribute
+      li.dataset.index = track_list.indexOf(track);
+
+      // Use the stored index when clicked
+      li.onclick = (e) => {
+        const idx = parseInt(e.target.dataset.index, 10);
+        loadTrack(idx);
+        playTrack(); // auto-play after selecting
+      };
+
       playlist.appendChild(li);
     });
 });
+
 
 // Initialize playlist
 renderPlaylist();

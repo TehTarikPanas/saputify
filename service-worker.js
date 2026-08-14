@@ -30,21 +30,26 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(
     caches.match(event.request).then((response) => {
       if (response) {
-        return response; // serve from cache
+        return response; // serve the correct cached file
       }
       return fetch(event.request).catch(() => {
-        // fallback: return a default offline page or silent fail
-        return caches.match("/index.html");
+        // fallback only for HTML, not for songs
+        if (event.request.destination === "document") {
+          return caches.match("/index.html");
+        }
       });
     }),
   );
 });
 
-self.addEventListener("activate", event => {
+self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
-    )
+    caches
+      .keys()
+      .then((keys) =>
+        Promise.all(
+          keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)),
+        ),
+      ),
   );
 });
-
