@@ -49,11 +49,6 @@ let track_list = [
     path: "assets/music/Chase Atlantic - HEAVEN AND BACK 4.mp3",
   },
   {
-    name: "Shipping Lanes",
-    artist: "Chad Crouch",
-    path: "assets/music/Shipping_Lanes.mp3",
-  },
-  {
     name: "DDD",
     artist: "EXID",
     path: "assets/music/[EXID(이엑스아이디)] 덜덜덜(DDD) 뮤직 비디오 (Official Music Video) 4.mp3",
