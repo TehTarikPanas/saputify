@@ -17,6 +17,8 @@ const urlsToCache = [
   "/assets/music/청하 (CHUNG HA) - 'PLAY (Feat. 창모 (CHANGMO))' M_V.mp3",
   "/assets/music/현아 _ FLOWER SHOWER _ 가사 _ HyunA _ FLOWER SHOWER _ 스페셜클립 _ Special Clip _ LYRICS.mp3",
   "/assets/music/Conor Maynard - For the Night (Lyrics) 4.mp3",
+  "/assets/music/Loren Allred - NEVER ENOUGH (LYRIC VIDEO) [The Greatest Showman Soundtrack] 4.mp3",
+  "/assets/music/Starting Over Again.mp3",
   "/styles.css",
   "/script.js",
 ];

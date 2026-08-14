@@ -98,6 +98,16 @@ let track_list = [
     artist: "Conor Maynard",
     path: "assets/music/Conor Maynard - For the Night (Lyrics) 4.mp3",
   },
+  {
+    name: "Never Enough",
+    artist: "Loren Allred",
+    path: "assets/music/Loren Allred - NEVER ENOUGH (LYRIC VIDEO) [The Greatest Showman Soundtrack] 4.mp3",
+  },
+  {
+    name: "Starting Over Again",
+    artist: "Natalie Cole",
+    path: "assets/music/Starting Over Again.mp3",
+  }
 ];
 
 function loadTrack(track_index) {
