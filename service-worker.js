@@ -16,6 +16,7 @@ const urlsToCache = [
   "/assets/music/Jessi (제시) - '눈누난나 (NUNU NANA)' MV 4.mp3",
   "/assets/music/청하 (CHUNG HA) - 'PLAY (Feat. 창모 (CHANGMO))' M_V.mp3",
   "/assets/music/현아 _ FLOWER SHOWER _ 가사 _ HyunA _ FLOWER SHOWER _ 스페셜클립 _ Special Clip _ LYRICS.mp3",
+  "/assets/music/Conor Maynard - For the Night (Lyrics) 4.mp3",
   "/styles.css",
   "/script.js",
 ];

@@ -98,6 +98,11 @@ let track_list = [
     artist: "HyunA",
     path: "assets/music/현아 _ FLOWER SHOWER _ 가사 _ HyunA _ FLOWER SHOWER _ 스페셜클립 _ Special Clip _ LYRICS.mp3",
   },
+  {
+    name: "For the Night",
+    artist: "Conor Maynard",
+    path: "assets/music/Conor Maynard - For the Night (Lyrics) 4.mp3",
+  },
 ];
 
 function loadTrack(track_index) {
