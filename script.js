@@ -107,6 +107,21 @@ let track_list = [
     name: "Starting Over Again",
     artist: "Natalie Cole",
     path: "assets/music/Starting Over Again.mp3",
+  },
+  {
+    name: "SO BAD",
+    artist: "STAYC",
+    path: "assets/music/STAYC(스테이씨) 'SO BAD' MV 4.mp3",
+  },
+  {
+    name: "PIRI",
+    artist: "Dreamcatcher",
+    path: "assets/music/Dreamcatcher (드림캐쳐) 'PIRI' (피리) MV.mp3",
+  },
+  {
+    name: "Percuma",
+    artist: "Mahalini",
+    path: "assets/music/Percuma - Mahalini _ Lyrics _ Lirik.mp3",
   }
 ];
 
